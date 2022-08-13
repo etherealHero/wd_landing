@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" /> -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>WD landing</title>
+</head>
+
+<body>
+   <header class="header" id="top">
+      <div class="container">
+         <div class="header__title">
+            <img class="header__logo" src="img/logo.svg" alt="logo">
+            <ul class="menu">
+               <li class="menu__item"><a href="#!" class="menu__link">Главная</a></li>
+               <li class="menu__item"><a href="#about" class="menu__link">Об авторе</a></li>
+               <li class="menu__item"><a href="#work" class="menu__link">Работы</a></li>
+               <li class="menu__item"><a href="#process" class="menu__link">Процесс</a></li>
+               <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+            </ul>
+            <button class="btn-menu btn sidenav-trigger" data-target="slide-out">
+               <i class="material-icons">menu</i>
+            </button>
+         </div>
+
+         <div class="header__main">
+            <div class="header__item">
+               <img src="img/laptop.png" alt="laptop" class="header__img">
+            </div>
+            <div class="header__item">
+               <h1 class="first-screen__title h-title">Дизайн и верстка</h1>
+               <p class="first-screen__text p-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+               <button class="btn modal-trigger" data-target="modal1">Написать мне</button>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <ul id="slide-out" class="sidenav">
+      <li><a href="#top"><i class="material-icons">home</i>Главная</a></li>
+      <li><a href="#about"><i class="material-icons">face</i>Об авторе</a></li>
+      <li><a href="#work"><i class="material-icons">folder_open</i>Работы</a></li>
+      <li><a href="#process"><i class="material-icons">loop</i>Процесс</a></li>
+      <li><a href="#contacts"><i class="material-icons">contacts</i>Контакты</a></li>
+      <li class="divider"></li>
+      <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i>Закрыть меню</a></li>
+   </ul>
+
+   <div id="modal1" class="modal">
+      <div class="modal-content">
+         <h4>Написать мне</h4>
+         <p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Что снова семантика
+            вдали маленький своего своих агентство, океана страна проектах путь переписали моей, свой единственное
+            осталось языкового жизни дал.</p>
+      </div>
+      <div class="modal-footer">
+         <a href="#!" class="modal-close btn">Agree</a>
+      </div>
+   </div>
+
+   <section class="section section-about" id="about">
+      <div class="section__header">
+         <h4 class="section__title h-title">Обо мне</h4>
+         <div class="section__subtitle p-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</div>
+      </div>
+   </section>
+
+   <section class="section section-numbers">
+      <div class="container">
+         <div class="numbers__grid">
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+            <div class="numbers__item">
+               <img src="img/numbers.png" alt="numbers" class="numbers__img">
+               <div class="numbers__stat">
+                  <span class="numbers__num">40+</span>
+                  проектов
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="section section-skills">
+      <div class="container">
+         <div class="skills__flex">
+            <div class="skills__item">
+               <h4 class="skills__title h-title">Мои навыки</h4>
+               <p class="progress-bar__title p-text">Adobe Photoshop</p>
+               <div class="progress-bar">
+                  <div class="progress-bar-completed" style="width: 60%"></div>
+               </div>
+               <p class="progress-bar__title p-text">Adobe Photoshop</p>
+               <div class="progress-bar">
+                  <div class="progress-bar-completed" style="width: 85%"></div>
+               </div>
+               <p class="progress-bar__title p-text">Adobe Photoshop</p>
+               <div class="progress-bar">
+                  <div class="progress-bar-completed" style="width: 33%"></div>
+               </div>
+            </div>
+            <div class="skills__item">
+               <img src="img/skills.jpg" alt="skills" class="skills__img">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="section section-work" id="work">
+      <div class="container">
+         <div class="section__header">
+            <h4 class="section__title h-title">Как я работаю</h4>
+            <div class="section__subtitle p-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</div>
+         </div>
+         <video class="video" controls poster="img/video.jpg"
+            src="https://www.youtube.com/watch?v=qQZ3PkiyjUI&list=WL&index=3&t=1s&ab_channel=ITDoctor"></video>
+      </div>
+   </section>
+
+   <section class="projects" id="process">
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_0.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_1.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_0.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_1.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_1.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_0.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_1.jpg" alt="projects">
+      </div>
+      <div class="projects__item">
+         <img class="projects__img materialboxed" src="img/projects_0.jpg" alt="projects">
+      </div>
+   </section>
+
+   <section class="section section-clients">
+      <img class="clients__item" src="img/clients.png" alt="clients">
+      <img class="clients__item" src="img/clients.png" alt="clients">
+      <img class="clients__item" src="img/clients.png" alt="clients">
+      <img class="clients__item" src="img/clients.png" alt="clients">
+   </section>
+
+   <section class="section section-form" id="contacts">
+      <div class="container">
+         <div class="section__header">
+            <h4 class="section__title h-title">Хотите веб-сайт?</h4>
+            <div class="section__subtitle p-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</div>
+         </div>
+         <form class="form" action="">
+            <div class="form__flex-top">
+               <input class="form__name input" type="text" placeholder="Ваше имя">
+               <input class="form__email input" type="email" placeholder="Ваш e-mail">
+            </div>
+            <textarea class="form__message input" name="message" id="message" placeholder="Сообщение"></textarea>
+            <input class="btn btn__submit modal-trigger" type="submit" value="Отправить" data-target="modal2">
+         </form>
+      </div>
+   </section>
+
+   <div id="modal2" class="modal">
+      <div class="modal-content">
+         <h4>Форма отправлена!</h4>
+         <p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Что снова семантика
+            вдали маленький своего своих агентство, океана страна проектах путь переписали моей, свой единственное
+            осталось языкового жизни дал.</p>
+      </div>
+      <div class="modal-footer">
+         <a href="#!" class="modal-close btn">Agree</a>
+      </div>
+   </div>
+
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__flex">
+            <div class="footer__item">
+               <h4 class="footer__author">Иванов Иван</h4>
+               <p class="copyright">(с) 2018. Все права защищены.</p>
+            </div>
+            <div class="footer__item">
+               <img class="footer__icon" src="img/footer-icon.png" alt="footer-icon">
+               <img class="footer__icon" src="img/footer-icon.png" alt="footer-icon">
+               <img class="footer__icon" src="img/footer-icon.png" alt="footer-icon">
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
