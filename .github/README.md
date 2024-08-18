@@ -70,3 +70,5 @@ index.html
 [asset3]: /path.png "label on hover"
 [asset4]: /path.png "label on hover"
 [asset5]: /path.png "label on hover"
+
+<!-- test author -->
